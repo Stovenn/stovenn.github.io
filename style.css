@@ -1,0 +1,163 @@
+/* @media screen (max-width : 800px) {
+  .dualBox{
+    flex-direction: column-reverse;
+  }
+} */
+html{
+  height: 100%;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  min-width: 1000px;
+  height: 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 13px
+}
+
+nav ul li{
+  
+  list-style-type: none;
+  font-size:0.8em;
+  padding-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgba(0,0,0,0.87);
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.appIcon{
+  width: 16px;
+}
+
+.appIcon:hover {
+  filter: contrast(2);
+}
+
+#login{
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  color: white;
+  height: 30px;
+  border:1px solid #4285f4;
+  border-radius: 2px;
+  font-weight: 700;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+main { 
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#searchBar{
+padding-top: 20px;
+position: relative;
+}
+
+.inputWithIcon:focus{
+  outline: none;
+  }
+
+.icon1{
+  position: absolute;
+  top:35px;
+  left: 15px;
+}
+
+.icon2{
+  position: absolute;
+  top: 35px;
+  right: 15px;
+}
+
+#searchBar input {
+  width: 550px;
+  height: 45px;
+  padding-left: 50px;
+  border: 1px solid #ced3db;
+  border-radius: 30px;
+}
+
+#searchBar input:hover {
+
+  box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.1);
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.searchBtn, .luckyBtn{
+  margin:2px 5px;
+  padding: 0px 16px;
+  border: 1px solid #f2f2f2;
+  height: 36px;
+  background: #f2f2f2;
+  color:#5F6368;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  align-self: flex-end;
+  color:#5F6368;
+  background: #f2f2f2;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  bottom: 0px;
+}
+
+.monoBox {
+  border: 1px solid #d6d6d6;
+  height: 50%;
+}
+
+.dualBox{
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+  padding-top:10px;
+}
+
+.monoBox p{
+  margin: 0;
+  font-size: 0.9em;
+  padding:10px 0px 0px 20px;
+}
+
+.firstBox a, .secondBox a {
+  font-size: 0.8em;
+  color:#5F6368;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.firstBox{
+  padding-right: 25px;
+}
+.secondBox{
+  padding-right: 25px;
+}
+
