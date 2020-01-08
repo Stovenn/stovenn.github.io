@@ -37,6 +37,7 @@ nav ul li a {
 
 nav ul li a:hover {
   text-decoration: underline;
+  color:rgba(0,0,0,0.6);
 }
 
 .appIcon{
@@ -119,6 +120,11 @@ position: relative;
   cursor: pointer;
 }
 
+.searchBtn:hover, .luckyBtn:hover{
+  border: 1px solid #5F6368;
+  color:black;
+}
+
 footer {
   align-self: flex-end;
   color:#5F6368;
@@ -153,6 +159,10 @@ footer {
   color:#5F6368;
   text-decoration: none;
   padding-left: 20px;
+}
+
+.firstBox a:hover, .secondBox a:hover {
+  text-decoration: underline;
 }
 
 .firstBox{
