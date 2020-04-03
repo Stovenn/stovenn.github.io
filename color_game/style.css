@@ -1,0 +1,103 @@
+html, body {
+  background-color: #1b1b1b;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+#container{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.square {
+  width: 30%;
+  background: #1b1b1b;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66% ;
+  border-radius: 15%;
+  transition: background 0.5s;
+}
+
+#titleBlock{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+#titleBlock p{
+  font-size:35px;
+  margin: 0;
+}
+
+#titleBlock .rgb{
+  font-size:60px;
+  margin: 0;
+}
+
+#header{
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  min-height: 280px;
+  background-color: teal;
+}
+#titleBlock{
+  height: 85%;
+}
+
+#band{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15%;
+  background: white;
+}
+
+.subBlock {
+  height:100%;
+  min-width: 20%;
+  padding:auto;
+  text-align: center;
+}
+
+#newGame{
+  color: teal;
+  font-weight: bold;
+  height: 100%;
+}
+
+#newGame:hover{
+  color: white;
+  background-color: teal;
+}
+
+#message{
+  margin-top: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+button{
+  margin:0;
+  border: none;
+  background-color:white;
+  color:teal;
+  font-size: 18px;
+  height: 100%;
+  transition: all 0.3s;
+}
+button:hover{
+  color: white;
+  background-color: teal;
+  cursor: pointer; 
+}
+
+.selected{
+  height: 100%;
+  width: auto;
+  color: white;
+  font-weight: bold;
+  background-color: teal;
+}

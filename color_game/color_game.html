@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color game</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <div id="header">
+    <div id="titleBlock">
+      <p>THE GREAT</p>
+      <h1 class="rgb"></h1>
+      <p>GUESSING GAME</p>
+    </div>
+    <div id="band">
+      <div class="subBlock">
+        <button id="newGame"></button>
+      </div>
+      <div class="subBlock">
+        <p id="message"></p>
+      </div>
+      <div class="subBlock">
+        <button id ="easyD">EASY</button><!--
+        --><button id="hardD" class="selected">HARD</button>
+      </div>
+    </div>
+  </div>
+  
+  <div id="container">
+    <div class="square" display></div>
+    <div class="square" display></div>
+    <div class="square" display></div>
+    <div class="square" display></div>
+    <div class="square" display></div>
+    <div class="square" display></div>
+  </div>
+  
+
+  <script src="color_game.js"></script>
+</body>
+</html>
